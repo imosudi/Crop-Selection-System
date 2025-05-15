@@ -14,6 +14,7 @@ print(py_vers, dir_path, python_path)
 #sys.path.insert(0, 'venv/lib/python3.8/site-packages')
 #sys.path.insert(0, f'{dir_path}')
 sys.path.insert(0, f'{python_path}')
+time.sleep(300)
 
 if __name__ == '__main__':
     #DEBUG is SET to TRUE. CHANGE FOR PROD
