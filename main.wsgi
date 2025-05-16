@@ -4,10 +4,9 @@
 import os
 import sys
 
-# Add the site-packages of the virtual environment
-site.addsitedir('/home/mosud/dev/agroselect/Crop-Selection-System/venv/lib/python3.12/site-packages')
 
-# Add the app's directory to the PYTHONPATH
-sys.path.insert(0, '/home/mosud/dev/agroselect/Crop-Selection-System')
+dir_path = os.path.dirname(os.path.realpath(__file__))
+print("dir_path: ", dir_path)
+sys.path.insert(0, dir_path)
 
 from app import app as application
