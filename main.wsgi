@@ -9,4 +9,4 @@ dir_path = os.path.dirname(os.path.realpath(__file__))
 print("dir_path: ", dir_path) 
 sys.path.insert(0, dir_path)
 
-from main import app as application
+from app import app as application
