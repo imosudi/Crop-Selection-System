@@ -6,7 +6,7 @@ import sys
 
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
-#print("dir_path: ", dir_path)
-#sys.path.insert(0, dir_path)
+print("dir_path: ", dir_path) 
+sys.path.insert(0, dir_path)
 
 from app import app as application

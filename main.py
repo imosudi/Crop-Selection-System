@@ -13,7 +13,7 @@ print(py_vers, dir_path, python_path)
 
 #sys.path.insert(0, 'venv/lib/python3.8/site-packages')
 #sys.path.insert(0, f'{dir_path}')
-sys.path.insert(0, f'{python_path}')
+#sys.path.insert(0, f'{python_path}')
 
 
 if __name__ == '__main__':
